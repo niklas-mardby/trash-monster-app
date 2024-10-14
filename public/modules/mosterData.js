@@ -1,5 +1,5 @@
 export const monsterData = {
 	colors: ["purple", "pink", "skyblue", "limegreen"],
 	types: ["cute", "evil"],
-	description: ["friends", "minions"],
+	description: ["friends", "minions", "cuteness level"],
 };
