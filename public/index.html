@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>trash-monster</title>
+		<link rel="stylesheet" href="style.css" />
+		<script type="module" src="app.js"></script>
+	</head>
+	<body>
+		<div>
+			<nav><h1>🗑️ trash-monster 👹</h1></nav>
+			<main>
+				<section id="add-monster">
+					<h2>Add monster</h2>
+					<form action="" id="add-monster-form">
+						<p>
+							<label
+								>Monster name: <br />
+								<input
+									type="text"
+									name="monster-name"
+									id="add-monster-name"
+							/></label>
+						</p>
+						<p>
+							<label
+								>Monster color: <br />
+								<select
+									name="add-monster-color"
+									id="add-monster-color"
+								></select>
+							</label>
+						</p>
+						<p>
+							<label
+								>Monster type: <br />
+								<select
+									name="add-monster-type"
+									id="add-monster-type"
+								></select>
+							</label>
+						</p>
+					</form>
+				</section>
+				<section id="edit-monster">
+					<h2>Edit monster</h2>
+					<p>
+						Click a monster under "All monsters" to open edit form here.
+					</p>
+					<form action="" id="edit-monster-form">
+						<label
+							>Monster name: <br />
+							<input
+								type="text"
+								name="monster-name"
+								id="edit-monster-name"
+						/></label>
+					</form>
+				</section>
+				<aside id="about-monsters">
+					<h2>About monsters</h2>
+					<ul></ul>
+				</aside>
+				<section id="all-monsters"><h2>All monsters</h2></section>
+			</main>
+			<footer>
+				<a href="https://github.com/niklas-mardby/trash-monster-app"
+					>Repo</a
+				>
+				|
+				<a href="https://mardby.se/w/index.php?title=Trash-monster-app"
+					>Wiki</a
+				>
+			</footer>
+		</div>
+	</body>
+</html>
