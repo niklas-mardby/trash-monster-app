@@ -25,7 +25,7 @@ body {
 	color: var(--color-licorice);
 	background-color: var(--color-apricot);
 
-	div {
+	& > div {
 		max-width: 70%;
 		min-width: 700px;
 		height: 100vh;
